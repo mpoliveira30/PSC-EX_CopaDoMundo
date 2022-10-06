@@ -15,12 +15,12 @@ public class Main {
 		int quantidadeJogadores = sc.nextInt();
 		
 		
-		while(quantidadeJogadores>= jogadores.getContador() ) {
+		while(quantidadeJogadores >= jogadores.getContador() ) {
 			jogadores.ContadorJogador();
 			
-			Scanner scan= new Scanner(System.in);
+		Scanner scan= new Scanner(System.in);
 		
-			System.out.printf("\nNome do Jogador: ");
+		System.out.printf("\nNome do Jogador: ");
         	String nome = scan.nextLine();
         	System.out.printf("Seleçao: ");
         	String selecao = scan.nextLine();
@@ -29,11 +29,11 @@ public class Main {
         	
  	        
  	        jogadores.setNome(nome);
-			jogadores.getNome();
-			jogadores.setSelecao(selecao);
-			jogadores.getSelecao();
-			jogadores.setNumero(numero);
-			jogadores.getNumero();
+		jogadores.getNome();
+		jogadores.setSelecao(selecao);
+		jogadores.getSelecao();
+		jogadores.setNumero(numero);
+		jogadores.getNumero();
 			
  	        jogadores.ExibirMensagem(); 
  	         
