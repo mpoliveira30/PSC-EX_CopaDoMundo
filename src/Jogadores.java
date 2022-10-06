@@ -9,28 +9,19 @@ public class Jogadores {
 	
 	
 	public Jogadores(String nome, String selecao, int numero) {
-		
-		
 		this.nome = nome;
 		this.selecao = selecao;
 		this.numero = numero;
-		
-		
-		} 
+	} 
 
 	public void ExibirMensagem() {
-		System.out.printf("Jogador: %s Camisa: %d Selecao: %s", getNome(), getNumero(), getSelecao(), "\n");
+		System.out.printf("Jogador: %s Camisa: %d Selecao: %s", getNome(), getNumero(), getSelecao());
 	}
 	
 	public void ContadorJogador() {
-		contador = contador+1;
-		
-		
-		
+		contador = contador+1;	
 	}
 	
-		
-
 	public int getContador() {
 		return contador;
 	}
